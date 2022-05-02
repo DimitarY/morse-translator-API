@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "А",
+    "code": ".-"
+  },
+  {
+    "symbol": "Б",
+    "code": "-..."
+  },
+  {
+    "symbol": "В",
+    "code": ".--"
+  },
+  {
+    "symbol": "Г",
+    "code": "--."
+  },
+  {
+    "symbol": "Д",
+    "code": "-.."
+  },
+  {
+    "symbol": "Е",
+    "code": "."
+  },
+  {
+    "symbol": "Ж",
+    "code": "...-"
+  },
+  {
+    "symbol": "З",
+    "code": "--.."
+  },
+  {
+    "symbol": "И",
+    "code": ".."
+  },
+  {
+    "symbol": "Й",
+    "code": ".---"
+  },
+  {
+    "symbol": "К",
+    "code": "-.-"
+  },
+  {
+    "symbol": "Л",
+    "code": ".-.."
+  },
+  {
+    "symbol": "М",
+    "code": "--"
+  },
+  {
+    "symbol": "Н",
+    "code": "-."
+  },
+  {
+    "symbol": "О",
+    "code": "---"
+  },
+  {
+    "symbol": "П",
+    "code": ".--."
+  },
+  {
+    "symbol": "Р",
+    "code": ".-."
+  },
+  {
+    "symbol": "С",
+    "code": "..."
+  },
+  {
+    "symbol": "Т",
+    "code": "-"
+  },
+  {
+    "symbol": "У",
+    "code": "..-"
+  },
+  {
+    "symbol": "Ф",
+    "code": "..-."
+  },
+  {
+    "symbol": "Х",
+    "code": "...."
+  },
+  {
+    "symbol": "Ц",
+    "code": "-.-."
+  },
+  {
+    "symbol": "Ч",
+    "code": "---."
+  },
+  {
+    "symbol": "Ш",
+    "code": "----"
+  },
+  {
+    "symbol": "Щ",
+    "code": "--.-"
+  },
+  {
+    "symbol": "Ъ",
+    "code": "-..-"
+  },
+  {
+    "symbol": "Ь",
+    "code": "-.--"
+  },
+  {
+    "symbol": "Ю",
+    "code": "..--"
+  },
+  {
+    "symbol": "Я",
+    "code": ".-.-"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "symbol": "A",
+    "code": ".-"
+  },
+  {
+    "symbol": "B",
+    "code": "-..."
+  },
+  {
+    "symbol": "C",
+    "code": "-.-."
+  },
+  {
+    "symbol": "D",
+    "code": "-.."
+  },
+  {
+    "symbol": "E",
+    "code": "."
+  },
+  {
+    "symbol": "F",
+    "code": "..-."
+  },
+  {
+    "symbol": "G",
+    "code": "--."
+  },
+  {
+    "symbol": "H",
+    "code": "...."
+  },
+  {
+    "symbol": "I",
+    "code": ".."
+  },
+  {
+    "symbol": "J",
+    "code": ".---"
+  },
+  {
+    "symbol": "K",
+    "code": "-.-"
+  },
+  {
+    "symbol": "L",
+    "code": ".-.."
+  },
+  {
+    "symbol": "M",
+    "code": "--"
+  },
+  {
+    "symbol": "N",
+    "code": "-."
+  },
+  {
+    "symbol": "O",
+    "code": "---"
+  },
+  {
+    "symbol": "P",
+    "code": ".--."
+  },
+  {
+    "symbol": "Q",
+    "code": "--.-"
+  },
+  {
+    "symbol": "R",
+    "code": ".-."
+  },
+  {
+    "symbol": "S",
+    "code": "..."
+  },
+  {
+    "symbol": "T",
+    "code": "-"
+  },
+  {
+    "symbol": "U",
+    "code": "..-"
+  },
+  {
+    "symbol": "V",
+    "code": "...-"
+  },
+  {
+    "symbol": "W",
+    "code": ".--"
+  },
+  {
+    "symbol": "X",
+    "code": "-..-"
+  },
+  {
+    "symbol": "Y",
+    "code": "-.--"
+  },
+  {
+    "symbol": "Z",
+    "code": "--.."
+  }
+]
