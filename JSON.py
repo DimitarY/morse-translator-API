@@ -15,3 +15,14 @@ class Languages(Resource):
                 languages.append(x[5:-5])
 
         return {"languages": languages}, 200
+
+class Files(Resource):
+    def get(self):
+        filename = "json.zip"
+        path = "archives/"
+        
+        try:
+            if os.path.getmtime("JSON") <= os.path.getmtime(filename):
+                return send_file(path + filename, attachment_filename=filename, as_attachment=True)
+        except FileNotFoundError:
+            return send_file(shutil.make_archive(path + filename[:-4], "zip", "JSON"), attachment_filename=filename, as_attachment=True)
