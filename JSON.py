@@ -14,7 +14,7 @@ class Languages(Resource):
             if x[5:-5] != "Numbers" and x[5:-5] != "Symbols":
                 languages.append(x[5:-5])
 
-        return {"languages": languages}, 200
+        return languages, 200
 
 class Files(Resource):
     def get(self):
