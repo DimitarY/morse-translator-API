@@ -130,3 +130,6 @@ dmypy.json
 
 # Ignoring folders
 archives
+
+# Ignoring files
+Setup/data.json
