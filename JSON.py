@@ -11,9 +11,12 @@ class Languages(Resource):
     def get(self):
         languages = []
 
-        for x in glob.glob("JSON/*.json"):
-            if x[5:-5] != "Numbers" and x[5:-5] != "Symbols":
-                languages.append(x[5:-5])
+        
+        os.chdir("Languages")
+        for x in glob.glob("*.json"):
+            if x[:-5] != "Numbers" and x[:-5] != "Symbols":
+                languages.append(x[:-5])
+        os.chdir("..")
 
         return languages, 200
 
@@ -25,10 +28,10 @@ class Files(Resource):
         path = "archives/"
 
         try:
-            if os.path.getmtime("JSON") <= os.path.getmtime(archiveName):
+            if os.path.getmtime("Languages") <= os.path.getmtime(archiveName):
                 return send_file(path + archiveName, attachment_filename=returnName, as_attachment=True)
         except FileNotFoundError:
-            return send_file(shutil.make_archive(path + archiveName[:-4], "zip", "JSON"), attachment_filename=returnName, as_attachment=True)
+            return send_file(shutil.make_archive(path + archiveName[:-4], "zip", "Languages"), attachment_filename=returnName, as_attachment=True)
 
     def post(self):
         archiveName = "requiredLanguages.zip"
@@ -41,7 +44,7 @@ class Files(Resource):
         args = parser.parse_args()
 
         with ZipFile(path + archiveName, "w") as zipObj:
-            os.chdir("JSON")
+            os.chdir("Languages")
             zipObj.write("Numbers.json")
             zipObj.write("Symbols.json")
             for x in args["languages"]:
