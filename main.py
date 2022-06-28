@@ -26,4 +26,4 @@ api.add_resource(DownloadSetup, "/download/Morse_Translator")
 
 if __name__ == '__main__':
     updateSetupData()
-    app.run(debug=True)  # run our Flask app
+    app.run(threaded=True, debug=True)  # run our Flask app
